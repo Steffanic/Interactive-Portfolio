@@ -21,8 +21,8 @@ body{
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
-      font-family: "Lovely Home";
-      font-size: 50px;
+      font-family: "Montserrat";
+      font-size: 40px;
       font-weight: bold;
       color: #351458;
   }
@@ -109,25 +109,25 @@ body{
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 50%}
 }@-webkit-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 50%}
 }@-moz-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 50%}
 }@-o-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 50%}
 }#Skill-CSS {
     animation: Animate-CSS 5s;
     -webkit-animation: Animate-CSS 5s;
@@ -169,7 +169,7 @@ to {
     -webkit-animation: Animate-Python 5s;
     -moz-animation: Animate-Python 5s;
     -o-animation: Animate-Python 5s;
-    width: 80%;
+    width: 90%;
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
@@ -179,25 +179,25 @@ to {
     width: 10px;
 }
 to {
-    width: 80%}
+    width: 90%}
 }@-webkit-keyframes Animate-Python {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
+    width: 90%}
 }@-moz-keyframes Animate-Python {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
+    width: 90%}
 }@-o-keyframes Animate-Python {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
+    width: 90%}
 }#Skill-JS {
     animation: Animate-JS 4s;
     -webkit-animation: Animate-JS 4s;
