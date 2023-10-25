@@ -28,16 +28,6 @@ body{
   color: #351458;
 }
 
-@media only screen and (max-width : 764px) {
-
-  .brand-name,
-  .navbar-light .navbar-brand {
-    font-family: "Montserrat";
-    font-size: 20px;
-    font-weight: bold;
-    color: #351458;
-  }
-}
 @media only screen and (max-width : 414px) {
 
   .brand-name,
@@ -46,6 +36,16 @@ body{
     /* margin-bottom: 3px; */
     font-family: "Montserrat";
     font-size: 10px;
+    font-weight: bold;
+    color: #351458;
+  }
+}
+@media only screen and (max-width : 764px) {
+
+  .brand-name,
+  .navbar-light .navbar-brand {
+    font-family: "Montserrat";
+    font-size: 20px;
     font-weight: bold;
     color: #351458;
   }
