@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Patrick's Portfolio</title>
   <link rel="icon" href="Image/engineer.ico">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   
@@ -48,12 +50,9 @@
 
           <section id = "Home">
               <div class="row column1">
-                <div class="col-lg-6 col-md-6 first-image">
-                    <img class = "boyimage" src="Image/PatHeadshot.png" alt="">
-                </div>  
-                  <div class="col-lg-6 section-1">
-                      <h1 class = "Hello"> Welcome! Thanks for stopping by! <span class="wave">👋</span></h1>
-                      <p>I am a Physics PhD candidate working using Python and Machine Learning to enhance physics analysis and beyond. Along the way I discovered that I became more interested in the technique over the application and have since been devoting myself to building the skills necesary for becoming a Machine Learning practitioner! I'm currently working to understand Bayesian Modeling and applying neural style transfer to audio.</p>
+                <div class="col-lg-8 col-md-8 section-1">
+                  <h1 class = "Hello"> Welcome! Thanks for stopping by! <span class="wave">👋</span></h1>
+                  <p>I am a Physics PhD candidate working using Python and Machine Learning to enhance physics analysis and beyond. Along the way I discovered that I became more interested in the technique over the application and have since been devoting myself to building the skills necesary for becoming a Machine Learning practitioner! I'm currently working to understand Bayesian Modeling and applying neural style transfer to audio.</p>
                           <div class=social_media_icon>
                             <a class="btn" href="https://www.instagram.com/psteffanic/" target=_blank>
                               <i class="fab fa-instagram"></i>
@@ -68,78 +67,82 @@
                               <i class="fab fa-google"></i>
                             </a>
                           </div>
-                  </div>
-                  
+                </div>
+                
+                <div class="col-lg-4 col-md-4 first-image">
+                    <img class = "boyimage" src="Image/PatHeadshot.png" alt="">
+                </div>  
               </div>
-          </section>
-
-
-          <section id=Whatido>
-            <h1>What I Do ?</h1>
+            </section>
+            
+            
+            <section id=Whatido>
+            <h1>My Experience</h1>
               <div class = "row feature-1">
-                  <div class="col-lg-6 col-md-6 Feature-first-image ">
-                    <img class = "Feature-svg-image" src="Image/Data_Analysis.svg" alt="">
+                  <div class="col-lg-4 col-md-4 Feature-first-image ">
+                    <img class = "Feature-svg-image" src="Image/Science.svg" alt="">
                   </div>
-                  <div class="col-lg-6 col-md-6">
-                    <h1 class= "Feature-Heading" >Data Analytics & ML</h1>
+                  <div class="col-lg-8 col-md-8">
+                    <h1 class= "Feature-Heading" >Science and Research</h1>
                     <ul class = "dev-icon">
-                      <li><i class="fab fa-python fa-5x" style="color:#3776ab"></i></li>
-                      <li><img class="numpy" src="Image/numpy-ar21.svg" alt=""></li>
-                      <li><img class = "pandas" src="Image/kindpng_5747046.png" alt=""></li>
+                      <li><img class="CPLogo" src="Image/CPLogo.svg" alt=""></li>
+                      <li><img class="UTLogo" src="Image/UTLogo.svg" alt=""></li>
+                      <li><img class = "ALICE" src="Image/ALICE Logo.png" alt=""></li>
+                      <li><img class="CERN" src="Image/CERN_logo.svg" alt=""></li>
                     </ul>
                     <div class = "Data-Analytic">
                       <p class ="Features-paragraph">
-                         💥 Developing Models that cleaning, tranforming and analyse Raw data to discover useful informations,
-                         in order to make conclusions about the informations.</p>
+                          I started working with the ALICE experiment at CERN in 2015 under Jennifer Klay at Cal Poly, San Luis Obispo and continued on in my PhD program with Christine Nattrass at the University of Tennessee, Knoxville. I have visited Geneva, Switzerland to assist in operating the experiment five times in that time. On my most recent trip, I worked as a Run Manager handling all the day-to-day operations for the experiment 24/7 over a two-week period.</p>
                       <p  class ="Features-paragraph">
-                         💥 Experience of working with different python Libraries like Numpy,Pandas,Matplotlib,Seaborn etc and have knowlege of
-                        Data analyitical algorithm and techniques.</p>
+                         👉 I have contributed two analysis codes in C++ to the official ALICE software package. </p>
+                      <p  class ="Features-paragraph">
+                         👉 I have published a paper on using machine learning in physics with a focus on explainability and bias-quantification. <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.024909">📖link</a></p>
                     </div>
                 </div>
               </div>
+
               <div class="row feature-2">
-                <div class="col-lg-6 col-md-6 feature-web">
-                  <h1 class="Feature-Heading">Web Development</h1>
+                <div class="col-lg-8 col-md-8 feature-web">
+                  <h1 class="Feature-Heading">Machine Learning, Data Analysis and Statistics</h1>
                   <ul class = "dev-icon">
-                    <li><i class="fab fa-html5 fa-5x" style="color:#e34f26"></i></li>
-                    <li><i class="fab fa-css3-alt fa-5x" style="color:#1572b6"></i></li>
-                    <li><i class="fab fa-bootstrap fa-5x" style="color:#543b79"></i></li>
-                    <li><i class="fab fa-js-square fa-5x" style="color:#f7df1e"></i></li>
-                    <li><i class="fab fa-react fa-5x" style="color:#61dafb"></i></li>
-                    <li><i class="fab fa-node fa-5x" style="color:#679e63"></i></li>
-                    <li><i class="fab fa-figma fa-5x" style="color:#f24e1e"></i></li>
-                
+                    <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="logos:pytorch-icon" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="tabler:sql" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="logos:matplotlib-icon" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="devicon:scikitlearn" data-inline="false" data-width="15%" data-height="15%"></span></li>
                   </ul>
                   <div class = "Data-Analytic">
                     <p class ="Features-paragraph">
-                       💥 Building Fully responsive website front end using HTML, CSS, Bootstrap and Javascript.</p>
+                       In my PhD I worked hard to learn and experience as many data analysis tools as I could get my hands on. Here are some highlights:</p>
                     <p  class ="Features-paragraph">
-                       💥 As of now I have knowledge only of front end but in near future I will add more features to myself and excited to explore React , NodeJS, Django , Flask and many more.</p>
+                       🧠 Used knowledge distillation to approximate black-box techniques with explainable methods that can be interrogated by the domain expert. Resulted in a publication. Technologies used: random forests and decision trees, dimensionality reduction, PCA and feature scores. </p>
                       <p  class ="Features-paragraph">
-                       💥 I have also used Abode Photoshop, Illustrator and Figma to design User interface of websites and mobile application and design of logos.</p>
+                       📊 Using bayesian techniques to understand error correction due to measurement stochasticity and detector inefficiencies. Technologies used: bayesian inference, stochastic variational inference, markov-chain monte carlo, Pyro</p>
                       </div>
                 </div>
-                <div class="col-lg-6 col-md-6 Feature-second-image ">
-                  <img class = "Feature-svg-image" src="Image/website.svg" alt="">
+                <div class="col-lg-4 col-md-4 Feature-second-image ">
+                  <img class = "Feature-svg-image" src="Image/AllTheData.svg" alt="">
                 </div>
               </div>
+
               <div class="row feature-3">
-                <div class = "col-lg-6 col-md-6 Feature-third-image">
+                <div class = "col-lg-4 col-md-4 Feature-third-image">
                     <img class = "Feature-svg-image-3" src="Image/Coding.svg" alt="">
                   </div>
-                  <div class="col-lg-6 col-md-6 feature-coding">
-                    <h1 class="Feature-Heading">Data Structure and Algorithms</h1>
+                  <div class="col-lg-8 col-md-8 feature-coding">
+                    <h1 class="Feature-Heading">Software Development</h1>
                     <ul class = "dev-icon">
-                     <li></li>
-                     <li><i class="fas fa-laptop-code fa-4x"></i></li>
-                     
-                     <li><i class="fas fa-file-code fa-4x" style="color: #a8afcb;"></i></li>
+                    <li><span class="iconify" data-icon="logos:c-plusplus" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="skill-icons:bash-dark" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="skill-icons:fastapi" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="skill-icons:git" data-inline="false" data-width="15%" data-height="15%"></span></li>
+                    <li><span class="iconify" data-icon="skill-icons:docker" data-inline="false" data-width="15%" data-height="15%"></span></li>
                     </ul>
                     <div class = "Data-Analytic">
                       <p class ="Features-paragraph">
-                         💥 I have knowledge of Data Structure like Hash Tables, Trees, Tries, Graphs, and various algorithms for solving various problems efficiently.</p>
+                         📈 I have been using C++ and Python for research and data analysis since 2013.</p>
                       <p  class ="Features-paragraph">
-                         💥 As I know Data Structure and Algorithms are the heart of programming, So I loves to solve programming question in different competitive website like codeforce,codechef,hackerrank and many more.</p>
+                         🧑‍💻 I have written an interactive dashboard for exploring and studying bayesian methods using Streamlit as a frontend and FastAPI as a backend REST api. I plan to dockerize each piece and learn how to deploy them to the cloud so anyone can try it out.</p>
                         </div>
                   </div>
               </div>
