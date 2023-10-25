@@ -84,7 +84,7 @@ span.wave {
 }
 
 .first-image{
-    position: absolute;
+  position: absolute;
     right:0;
 }
 .boyimage{
@@ -310,7 +310,7 @@ span.wave {
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Montserrat";
-      font-size: 40px;
+      font-size: 30px;
       font-weight: bold;
       color: #351458;
   }
@@ -344,6 +344,15 @@ span.wave {
       .first-image{
           display: none;
       }
+            .brand-name,
+            .navbar-light .navbar-brand {
+              /* font-family: "Brush Script MT"; */
+              /* margin-bottom: 3px; */
+              font-family: "Montserrat";
+              font-size: 30px;
+              font-weight: bold;
+              color: #351458;
+            }
 
       .pandas{
         width: 23%;
