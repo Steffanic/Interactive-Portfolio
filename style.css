@@ -223,7 +223,6 @@ span.wave {
 
   .Feature-second-image{
       padding : 5% 2% 2%;
-      margin-top: 18%;
   }
 
 
@@ -300,6 +299,9 @@ span.wave {
     }
     .feature-web{
       order:2;
+    }
+    .Feature-second-image{
+      margin-top: 3em;
     }
       
       .brand-name ,.navbar-light .navbar-brand{

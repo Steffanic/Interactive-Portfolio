@@ -110,7 +110,7 @@ body{
     padding: 10px;
 }
 .SkillBar {
-    width: 90%;
+    width: 95%;
     height: 50px;
     position: relative;
     border-radius:20px;
@@ -121,7 +121,7 @@ body{
 
 
 #Skill-web {
-    width: 55%;
+    width: 62%;
     border-radius:20px;
     animation: Animate-web 4s;
     -webkit-animation: Animate-web 4s;
@@ -136,7 +136,7 @@ body{
     width: 155px;
 }
 to {
-    width: 55%}
+    width: 62%}
 }@-webkit-keyframes Animate-web {
     from {
     width: 155px;
