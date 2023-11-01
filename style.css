@@ -222,7 +222,8 @@ span.wave {
   }
 
   .Feature-second-image{
-      padding : 5% 2% 0;
+      padding : 5% 2% 2%;
+      margin-top: 18%;
   }
 
 
@@ -289,7 +290,7 @@ span.wave {
 
   .Features-paragraph{
       margin-top : 8px;
-      margin-bottom: 8px;
+      margin-bottom: 16px;
   }
 
   @media only screen and (max-width : 764px){
