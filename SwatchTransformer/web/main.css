@@ -73,7 +73,7 @@ font-size: 0.6em;
     margin: 5%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1%;
     align-items: center;
 }
