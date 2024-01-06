@@ -312,6 +312,7 @@ to {
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
+    overflow: hidden;
 }
 @keyframes Animate-PythonCore {
     from {
@@ -349,6 +350,7 @@ to {
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
+    overflow: hidden;
 }
 @keyframes Animate-cloud {
     from {
@@ -450,6 +452,43 @@ to {
     width: 95%}
 }
 
+#Skill-vc-ci-cd {
+    animation: Animate-vc-ci-cd 4s;
+    -webkit-animation: Animate-vc-ci-cd 4s;
+    -moz-animation: Animate-vc-ci-cd 4s;
+    -o-animation: Animate-vc-ci-cd 4s;
+    border-radius:20px;
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    background-color: #6c63ff;
+}
+@keyframes Animate-vc-ci-cd {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-webkit-keyframes Animate-vc-ci-cd {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-moz-keyframes Animate-latex {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}@-o-keyframes Animate-vc-ci-cd {
+    from {
+    width: 10px;
+}
+to {
+    width: 60%}
+}
+
 
 .Skill-Area {
     z-index: 1;
@@ -459,6 +498,20 @@ to {
     margin-left: 15px;
     text-shadow: none;
     color: #fff;
+}
+
+.Skill-Text {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Montserrat";
+    letter-spacing: 1px;
+    margin: 5;
+    padding: 5;
+    overflow: hidden;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px #d9f909;
+    color: #3700ff;
 }
 
 
