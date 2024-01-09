@@ -87,11 +87,11 @@
             
             <section id=Whatido>
             <h1>My Experience</h1>
-              <div class = "row feature-1">
+              <div class = "row feature-1" style="justify-content: space-evenly;align-items: center;">
                   <div class="col-lg-4 col-md-4 Feature-first-image ">
                     <img class = "Feature-svg-image" src="Image/Science.svg" alt="">
                   </div>
-                  <div class="col-lg-8 col-md-8">
+                  <div class="col-lg-6 col-md-6">
                     <h1 class= "Feature-Heading" >Science and Research</h1>
                     <ul class = "dev-icon">
                       <li><img class="CPLogo" src="Image/CPLogo.svg" alt=""></li>
@@ -99,19 +99,21 @@
                       <li><img class = "ALICE" src="Image/ALICE Logo.png" alt=""></li>
                       <li><img class="CERN" src="Image/CERN_logo.svg" alt=""></li>
                     </ul>
+                    </div>
+                    <div class="col-lg-12 col-md-12">
                     <div class = "Data-Analytic">
                       <p class ="Features-paragraph">
                           I started working with the ALICE experiment at CERN in 2015 under Jennifer Klay at Cal Poly, San Luis Obispo and continued on in my PhD program with Christine Nattrass at the University of Tennessee, Knoxville. I have visited Geneva, Switzerland to assist in operating the experiment five times in that time. On my most recent trip, I worked as a Run Manager handling all the day-to-day operations for the experiment 24/7 over a two-week period.</p>
                       <p  class ="Features-paragraph">
                          👉 I have contributed two analysis codes in C++ to the official ALICE software package. </p>
                       <p  class ="Features-paragraph">
-                         👉 I have published a paper on using machine learning in physics with a focus on explainability and bias-quantification. <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.024909">📖link</a></p>
+                         👉 I have published two papers on using machine learning in physics with a focus on explainability and bias-quantification. <a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.024909">📖Paper #1</a><a href="https://journals.aps.org/prc/abstract/10.1103/PhysRevC.108.L021901">📖Paper #2</a></p>
                     </div>
                 </div>
               </div>
 
-              <div class="row feature-2">
-                <div class="col-lg-8 col-md-8 feature-web">
+              <div class="row feature-2" style="justify-content: space-evenly; align-items: center;">
+                <div class="col-lg-6 col-md-6 feature-web">
                   <h1 class="Feature-Heading">Machine Learning, Data Analysis and Statistics</h1>
                   <ul class = "dev-icon">
                     <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="15%" data-height="15%"></span></li>
@@ -120,18 +122,27 @@
                     <li><span class="iconify" data-icon="logos:matplotlib-icon" data-inline="false" data-width="15%" data-height="15%"></span></li>
                     <li><span class="iconify" data-icon="devicon:scikitlearn" data-inline="false" data-width="15%" data-height="15%"></span></li>
                   </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-4 Feature-second-image " style="align-items: center; justify-content: center;">
+                      <img class="Feature-svg-image" src="Image/AllTheData.svg" alt="" >
+                    </div>
+                    <div class="col-lg-12 col-md-12">
                   <div class = "Data-Analytic">
-                    <p class ="Features-paragraph">
-                       In my PhD I worked hard to learn and experience as many data analysis tools as I could get my hands on. Here are some highlights:</p>
                     <p  class ="Features-paragraph">
-                       🧠 Used knowledge distillation to approximate black-box techniques with explainable methods that can be interrogated by the domain expert. Resulted in a publication. Technologies used: random forests and decision trees, dimensionality reduction, PCA and feature scores. </p>
+                       🧠 I used knowledge distillation to approximate black-box techniques, like neural networks and random forests, with explainable methods that can be interrogated by the domain experts. Additionally, I explored unorthodox uses of machine learning metrics. This resulted in two publications: a first author publication using a single decision rule to distill a random forest at a level of more than 95% background rejection compared with the random forest on a jet classification task, and a second author paper using symbolic regression to distill a neural network trained to regress the background contamination to a jet's momentum. The former also uses the silhouette score metric to quantify how similar certain populations of the background are to the signal, therefore demonstrating the need to explore new observables to rout these "imposters" out! </p>
                       <p  class ="Features-paragraph">
-                       📊 Using bayesian techniques to understand error correction due to measurement stochasticity and detector inefficiencies. Technologies used: bayesian inference, stochastic variational inference, markov-chain monte carlo, Pyro</p>
+                       📊 I employed advanced sampling techniques to better model a gaussian mixture using domain knowledge about multiple detector signals to determine the fractions of each particle species in jets produced in heavy ion collisions. This technique allows us to statistically estimate the particle composition due to different physical processes, revealing the nature of hadronization, or the construction of particles from their fundamental components. Using a natural ordering present in one detector's signal, I collected biased samples containing an abundance of each particle type and used these samples to better determine the mean and variance of each particle type. Fixing the shape parameters, only the mixture weights need to be determined leading to a better fit.</p>
+                      <p  class ="Features-paragraph">
+                       🌈 I built a color palette dataset composed of sequential, divergent, and qualitative palettes. I then trained two transformer models to reproduce the palettes as sequences, with and without the context of which type of palette they were being trained on. After finding that the contextual information was not being properly learned, I trained the first model to a satisfactory loss that produced qualitatively good palettes and exported it for use in the JS ONNX runtime. I constructed a web app to demonstrate the palette generation capability. Check it out for yourself on my <a href="Project.html">Projects</a> page!</p>
+                      <p  class ="Features-paragraph">
+                       🎸 FunkifyThis is an exploration into the extent to which a spectrogram of a song captures the style or genre of the song. I trained two different CNNs on mel-scaled spectrograms from the GTZAN dataset on the task of genre classification. The first CNN, which used a standard architecture convolving both the time and frequency axes, acheived 55% accuracy on the test set. The second CNN, which used a frequency only convolution achieved a 65% accuracy on the test set. Each CNN was then used in the neural style transfer algorithm to style one song as another. The results are disconcerting at best and pure noise at the worst, but with more thought and a much larger dataset, perhaps the style transfer could be made to work. I'm not holding my breath! 😁</p>
+                      <p  class ="Features-paragraph">
+                       📄Rank-aware pruning is one of my current research interests. Almost all machine learning techniques feature tensors and matrices prominently, and there are several ways that the learning behaviour can be studied through these objects. In addition to monitoring the values of their entries and the gradients that ultimately update those values, I became interested in looking at the rank of the weight matrices through the training process. Some work has been done that shows an Adam optimizer paired with a weight decay penalty will reduce the rank of the weight matrices. The goal of my investigation into this phenomena is to understand the realtionship between limiting rank over a long training session, the underlying problem, and the depth of the network. I'm also cooking up a meta-learning algorithm that rebuilds new networks based on the learned rank of a previously trained network. I would like to publish these results once some clear conclusions can be drawn.</p>
+                      <p  class ="Features-paragraph">
+                       🕹️ I implemented a Monte-Carlo tree search algorithm and trained it to perfection on Tic-Tac-Toe. Additionally, I attempted to train it on CartPole, a continuous observation and action-space game with little success, even with clever dynamic discretization schemes. Instead, I used the EM algorithm to jointly train the policy and values functions represented as neural networks, succesfully solving CartPole. </p>
                       </div>
                 </div>
-                <div class="col-lg-4 col-md-4 Feature-second-image ">
-                  <img class = "Feature-svg-image" src="Image/AllTheData.svg" alt="">
-                </div>
+                
               </div>
 
               <div class="row feature-3">
