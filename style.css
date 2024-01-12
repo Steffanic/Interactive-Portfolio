@@ -224,7 +224,21 @@ span.wave {
       padding : 5% 2% 2%;
   }
 
-
+    .Resume {
+      color: white;
+      background-color: #6c63ff;
+      width: fit-content;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+  
+    .Resume:hover {
+      color: black;
+      background-color: white;
+      transition: 0.5s;
+      width: fit-content;
+    }
 
 
 

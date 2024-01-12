@@ -116,7 +116,7 @@ body{
     border-radius:20px;
     /* background: rgba(17, 17, 17, .3); */
     background: #c5c2ff;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 
@@ -462,6 +462,7 @@ to {
     height: 50px;
     position: absolute;
     background-color: #6c63ff;
+    overflow: hidden;
 }
 @keyframes Animate-vc-ci-cd {
     from {
@@ -489,6 +490,120 @@ to {
     width: 60%}
 }
 
+#Skill-DSA {
+    animation: Animate-DSA 4s;
+    -webkit-animation: Animate-DSA 4s;
+    -moz-animation: Animate-DSA 4s;
+    -o-animation: Animate-DSA 4s;
+    border-radius:20px;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    background-color: #6c63ff;
+    overflow: hidden;
+}
+@keyframes Animate-DSA {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-webkit-keyframes Animate-DSA {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-moz-keyframes Animate-DSA {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}@-o-keyframes Animate-DSA {
+    from {
+    width: 10px;
+}
+to {
+    width: 50%}
+}
+
+#Skill-RTW {
+    animation: Animate-RTW 4s;
+    -webkit-animation: Animate-RTW 4s;
+    -moz-animation: Animate-RTW 4s;
+    -o-animation: Animate-RTW 4s;
+    border-radius:20px;
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    background-color: #6c63ff;
+    overflow: hidden;
+}
+@keyframes Animate-RTW {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-webkit-keyframes Animate-RTW {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-moz-keyframes Animate-RTW {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}@-o-keyframes Animate-RTW {
+    from {
+    width: 10px;
+}
+to {
+    width: 90%}
+}
+
+#Skill-IP {
+    animation: Animate-IP 4s;
+    -webkit-animation: Animate-IP 4s;
+    -moz-animation: Animate-IP 4s;
+    -o-animation: Animate-IP 4s;
+    border-radius:20px;
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    background-color: #6c63ff;
+    overflow: hidden;
+}
+@keyframes Animate-IP {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-webkit-keyframes Animate-IP {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-moz-keyframes Animate-IP {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}@-o-keyframes Animate-IP {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+
 
 .Skill-Area {
     z-index: 1;
@@ -501,15 +616,13 @@ to {
 }
 
 .Skill-Text {
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+    text-align: left;
     font-family: "Montserrat";
-    letter-spacing: 1px;
-    margin: 5;
-    padding: 5;
+    letter-spacing: 5px;
     overflow: hidden;
-    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
     text-shadow: 2px 2px 2px #d9f909;
     color: #3700ff;
 }
